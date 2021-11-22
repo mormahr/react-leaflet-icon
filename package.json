@@ -47,10 +47,12 @@
   "size-limit": [
     {
       "path": "dist/react-leaflet-icon.cjs.production.min.js",
+      "ignore": ["leaflet", "react-leaflet", "react", "react-dom"],
       "limit": "10 KB"
     },
     {
       "path": "dist/react-leaflet-icon.esm.js",
+      "ignore": ["leaflet", "react-leaflet", "react", "react-dom"],
       "limit": "10 KB"
     }
   ],
